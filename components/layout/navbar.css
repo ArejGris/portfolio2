@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding:10px 20px;
+    color: white;
+    background-color: black;
+}
+header h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.list{
+    list-style: none;
+    display: flex;
+
+}
+.list li{
+    margin-left: 10px;
+}

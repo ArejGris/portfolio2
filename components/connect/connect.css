@@ -1,0 +1,15 @@
+.connect{
+    height: 300px;
+    width: 100px;
+    background-color:transparent;
+    border-radius: 10px;
+}
+.connect ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.connect ul li img{
+width: 50px;
+}

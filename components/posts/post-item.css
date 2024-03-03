@@ -1,0 +1,38 @@
+.one-post{
+    
+    background-color: rgb(85, 84, 84);
+    border-radius: 10px;
+
+}
+
+.one-post a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.one-post a .image {
+    display: flex;
+    justify-content: center;
+}
+.one-post a .image .img{
+    border-radius: 10px;
+    width: 90%;
+    max-height: 150px;
+}
+.one-post a .container{
+    padding: 20px;
+}
+.one-post a .content{
+    padding: 10px;
+    padding-top: 20px;
+    place-items: center;
+    color: rgb(211, 209, 209);
+}
+.one-post a .content h3{
+    color: black;
+    font-weight: 900;
+}
+.one-post .excerpt{
+    text-align: center;
+}

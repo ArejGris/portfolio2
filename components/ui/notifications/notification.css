@@ -1,0 +1,21 @@
+.not{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+width: 100vw;
+height: 50px;
+text-align: center;
+color: white;
+}
+.not .success{
+    height: 100%;
+    background-color: rgb(17, 226, 17);
+}
+.not .error {
+    height: 100%;
+    background-color: rgb(238, 77, 77);
+}
+.not .pending{
+    height: 100%;
+    background-color: rgb(90, 158, 247);
+}

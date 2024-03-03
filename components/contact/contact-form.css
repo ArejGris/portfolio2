@@ -1,0 +1,65 @@
+.contact{
+    background-color: rgb(218, 214, 214);
+    border-radius: 10p;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin:20px auto;
+    padding: 20px;
+}
+.contact h1{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+.contact .form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.contact .form .control{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.contact .form .control input{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color:whitesmoke;;
+}
+.contact .form .controls{
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.contact .form .controls textarea{
+    border-radius: 10px;
+    background-color: whitesmoke;;
+}
+.contact .form .actions{
+display: flex;
+    width: 80%;
+    justify-content: flex-end;
+
+
+}
+.contact .form .actions button{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.contact .form .actions button:hover{
+    scale: 0.89;
+}
+.contact .form .actions button:focus{
+    scale:1.1
+}

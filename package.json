@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "framer-motion": "^11.0.8",
+    "gray-matter": "^4.0.3",
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
+    "mongodb": "^6.3.0",
+    "next": "14.1.0",
+    "next-auth": "^4.24.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1",
+    "slick-slider": "^1.8.2",
+    "swiper": "^11.0.7"
+  }
+}
